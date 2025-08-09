@@ -29,30 +29,7 @@ public class SimpleMoodSelector extends JFrame implements ActionListener {
         nameField.setBounds(180, 70, 200, 25);
         add(nameField);
 
-        happyBtn = new JRadioButton("😊 Happy");
-        sadBtn = new JRadioButton("😢 Sad");
-        tiredBtn = new JRadioButton("💤 Tired");
-        excitedBtn = new JRadioButton("🎉 Excited");
-        angryBtn = new JRadioButton("😠 Angry");
-
-        happyBtn.setBounds(50, 110, 150, 25);
-        sadBtn.setBounds(50, 140, 150, 25);
-        tiredBtn.setBounds(50, 170, 150, 25);
-        excitedBtn.setBounds(50, 200, 150, 25);
-        angryBtn.setBounds(50, 230, 150, 25);
-
-        ButtonGroup group = new ButtonGroup();
-        group.add(happyBtn);
-        group.add(sadBtn);
-        group.add(tiredBtn);
-        group.add(excitedBtn);
-        group.add(angryBtn);
-
-        add(happyBtn);
-        add(sadBtn);
-        add(tiredBtn);
-        add(excitedBtn);
-        add(angryBtn);
+       
 
         setVisible(true);
     }
